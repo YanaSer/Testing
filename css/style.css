@@ -1,0 +1,52 @@
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+/* montserrat-300 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/montserrat-v25-latin_cyrillic-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin_cyrillic-300.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* piazzolla-200 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Piazzolla';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/piazzolla-v29-latin_cyrillic-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/piazzolla-v29-latin_cyrillic-200.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* piazzolla-regular - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Piazzolla';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/piazzolla-v29-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/piazzolla-v29-latin_cyrillic-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* piazzolla-600 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Piazzolla';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/piazzolla-v29-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/piazzolla-v29-latin_cyrillic-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
