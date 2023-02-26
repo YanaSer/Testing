@@ -6,7 +6,7 @@
 }
 
 .form {
-    width: 320px;
+    width: 30%;
     height: 30%;
     padding: 20px;
     border-radius: 10px;
@@ -163,4 +163,15 @@ li {
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
+}
+@media (max-width:800px){
+.form{
+    width: 320px;
+    height: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #C2C2C2;
+    background-color: #ffffff;
+    position: relative;
+}
 }
