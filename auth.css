@@ -6,12 +6,13 @@
 }
 
 .form {
-    width: 30%;
+    width: 320px;
     height: 30%;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 30px #C2C2C2;
     background-color: #ffffff;
+    position: relative;
 }
 
 .center {
@@ -155,9 +156,11 @@ li {
     cursor: pointer;
 }
 .background{
+    background-image: url(img/background.svg);
     z-index: -1; 
-    position: absolute;
-    top: 0;
-    left: 0;
-
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
